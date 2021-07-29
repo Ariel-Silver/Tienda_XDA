@@ -1,0 +1,32 @@
+.navbar {
+    background-color: $white !important;
+    padding-top: 0px;
+}
+
+.navbar-brand {
+    width: 70px;
+    height: 70px;
+    background-color: $smoky-black;
+    color: $white !important;
+    font-family: $old-standard;
+    font-size: $x-large;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.color-menu {
+    color: $smoky-black;
+    font-weight: $bold;
+    font-size: $medium; 
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        transform: rotate(-90deg);
+    }
+}
